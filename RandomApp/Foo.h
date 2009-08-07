@@ -10,7 +10,8 @@
 
 
 @interface Foo : NSObject {
-
+	IBOutlet NSTextField *textField;
 }
-
+- (IBAction)seed:(id)sender;
+- (IBAction)generate:(id)sender;
 @end
